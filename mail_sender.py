@@ -1,8 +1,6 @@
 from tkinter import *
 import smtplib
 import re
-import sys
-import os
 
 def start_logging():
 
@@ -132,9 +130,7 @@ root = Tk()
 root.title('Mail Sending Program')
 root.resizable(False, False)
 
-base_path = sys._MEIPASS
-
-root.iconbitmap(os.path.join(base_path, "mail.ico"))
+root.iconbitmap("mail.ico")
 
 
 
